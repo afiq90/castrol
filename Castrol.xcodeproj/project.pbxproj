@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADE54B8C1EF3927000274AC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE54B8B1EF3927000274AC2 /* AppDelegate.swift */; };
+		ADE54B8E1EF3927000274AC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE54B8D1EF3927000274AC2 /* ViewController.swift */; };
+		ADE54B911EF3927000274AC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE54B8F1EF3927000274AC2 /* Main.storyboard */; };
+		ADE54B941EF3927000274AC2 /* Castrol.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADE54B921EF3927000274AC2 /* Castrol.xcdatamodeld */; };
+		ADE54B961EF3927000274AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE54B951EF3927000274AC2 /* Assets.xcassets */; };
+		ADE54B991EF3927000274AC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE54B971EF3927000274AC2 /* LaunchScreen.storyboard */; };
+		ADE54BA41EF3927000274AC2 /* CastrolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE54BA31EF3927000274AC2 /* CastrolTests.swift */; };
+		ADE54BAF1EF3927100274AC2 /* CastrolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE54BAE1EF3927100274AC2 /* CastrolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADE54BA01EF3927000274AC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE54B801EF3927000274AC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE54B871EF3927000274AC2;
+			remoteInfo = Castrol;
+		};
+		ADE54BAB1EF3927000274AC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE54B801EF3927000274AC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE54B871EF3927000274AC2;
+			remoteInfo = Castrol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADE54B881EF3927000274AC2 /* Castrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Castrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE54B8B1EF3927000274AC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADE54B8D1EF3927000274AC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADE54B901EF3927000274AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADE54B931EF3927000274AC2 /* Castrol.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Castrol.xcdatamodel; sourceTree = "<group>"; };
+		ADE54B951EF3927000274AC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADE54B981EF3927000274AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADE54B9A1EF3927000274AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE54B9F1EF3927000274AC2 /* CastrolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastrolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE54BA31EF3927000274AC2 /* CastrolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastrolTests.swift; sourceTree = "<group>"; };
+		ADE54BA51EF3927000274AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE54BAA1EF3927000274AC2 /* CastrolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastrolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE54BAE1EF3927100274AC2 /* CastrolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastrolUITests.swift; sourceTree = "<group>"; };
+		ADE54BB01EF3927100274AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADE54B851EF3927000274AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE54B9C1EF3927000274AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE54BA71EF3927000274AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADE54B7F1EF3927000274AC2 = {
+			isa = PBXGroup;
+			children = (
+				ADE54B8A1EF3927000274AC2 /* Castrol */,
+				ADE54BA21EF3927000274AC2 /* CastrolTests */,
+				ADE54BAD1EF3927100274AC2 /* CastrolUITests */,
+				ADE54B891EF3927000274AC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADE54B891EF3927000274AC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADE54B881EF3927000274AC2 /* Castrol.app */,
+				ADE54B9F1EF3927000274AC2 /* CastrolTests.xctest */,
+				ADE54BAA1EF3927000274AC2 /* CastrolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADE54B8A1EF3927000274AC2 /* Castrol */ = {
+			isa = PBXGroup;
+			children = (
+				ADE54B8B1EF3927000274AC2 /* AppDelegate.swift */,
+				ADE54B8D1EF3927000274AC2 /* ViewController.swift */,
+				ADE54B8F1EF3927000274AC2 /* Main.storyboard */,
+				ADE54B951EF3927000274AC2 /* Assets.xcassets */,
+				ADE54B971EF3927000274AC2 /* LaunchScreen.storyboard */,
+				ADE54B9A1EF3927000274AC2 /* Info.plist */,
+				ADE54B921EF3927000274AC2 /* Castrol.xcdatamodeld */,
+			);
+			path = Castrol;
+			sourceTree = "<group>";
+		};
+		ADE54BA21EF3927000274AC2 /* CastrolTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADE54BA31EF3927000274AC2 /* CastrolTests.swift */,
+				ADE54BA51EF3927000274AC2 /* Info.plist */,
+			);
+			path = CastrolTests;
+			sourceTree = "<group>";
+		};
+		ADE54BAD1EF3927100274AC2 /* CastrolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADE54BAE1EF3927100274AC2 /* CastrolUITests.swift */,
+				ADE54BB01EF3927100274AC2 /* Info.plist */,
+			);
+			path = CastrolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADE54B871EF3927000274AC2 /* Castrol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE54BB31EF3927100274AC2 /* Build configuration list for PBXNativeTarget "Castrol" */;
+			buildPhases = (
+				ADE54B841EF3927000274AC2 /* Sources */,
+				ADE54B851EF3927000274AC2 /* Frameworks */,
+				ADE54B861EF3927000274AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Castrol;
+			productName = Castrol;
+			productReference = ADE54B881EF3927000274AC2 /* Castrol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADE54B9E1EF3927000274AC2 /* CastrolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE54BB61EF3927100274AC2 /* Build configuration list for PBXNativeTarget "CastrolTests" */;
+			buildPhases = (
+				ADE54B9B1EF3927000274AC2 /* Sources */,
+				ADE54B9C1EF3927000274AC2 /* Frameworks */,
+				ADE54B9D1EF3927000274AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADE54BA11EF3927000274AC2 /* PBXTargetDependency */,
+			);
+			name = CastrolTests;
+			productName = CastrolTests;
+			productReference = ADE54B9F1EF3927000274AC2 /* CastrolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADE54BA91EF3927000274AC2 /* CastrolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE54BB91EF3927100274AC2 /* Build configuration list for PBXNativeTarget "CastrolUITests" */;
+			buildPhases = (
+				ADE54BA61EF3927000274AC2 /* Sources */,
+				ADE54BA71EF3927000274AC2 /* Frameworks */,
+				ADE54BA81EF3927000274AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADE54BAC1EF3927000274AC2 /* PBXTargetDependency */,
+			);
+			name = CastrolUITests;
+			productName = CastrolUITests;
+			productReference = ADE54BAA1EF3927000274AC2 /* CastrolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADE54B801EF3927000274AC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Cliqers;
+				TargetAttributes = {
+					ADE54B871EF3927000274AC2 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					ADE54B9E1EF3927000274AC2 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = ADE54B871EF3927000274AC2;
+					};
+					ADE54BA91EF3927000274AC2 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = ADE54B871EF3927000274AC2;
+					};
+				};
+			};
+			buildConfigurationList = ADE54B831EF3927000274AC2 /* Build configuration list for PBXProject "Castrol" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADE54B7F1EF3927000274AC2;
+			productRefGroup = ADE54B891EF3927000274AC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADE54B871EF3927000274AC2 /* Castrol */,
+				ADE54B9E1EF3927000274AC2 /* CastrolTests */,
+				ADE54BA91EF3927000274AC2 /* CastrolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADE54B861EF3927000274AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE54B991EF3927000274AC2 /* LaunchScreen.storyboard in Resources */,
+				ADE54B961EF3927000274AC2 /* Assets.xcassets in Resources */,
+				ADE54B911EF3927000274AC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE54B9D1EF3927000274AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE54BA81EF3927000274AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADE54B841EF3927000274AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE54B941EF3927000274AC2 /* Castrol.xcdatamodeld in Sources */,
+				ADE54B8E1EF3927000274AC2 /* ViewController.swift in Sources */,
+				ADE54B8C1EF3927000274AC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE54B9B1EF3927000274AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE54BA41EF3927000274AC2 /* CastrolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE54BA61EF3927000274AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE54BAF1EF3927100274AC2 /* CastrolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADE54BA11EF3927000274AC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADE54B871EF3927000274AC2 /* Castrol */;
+			targetProxy = ADE54BA01EF3927000274AC2 /* PBXContainerItemProxy */;
+		};
+		ADE54BAC1EF3927000274AC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADE54B871EF3927000274AC2 /* Castrol */;
+			targetProxy = ADE54BAB1EF3927000274AC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADE54B8F1EF3927000274AC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADE54B901EF3927000274AC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADE54B971EF3927000274AC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADE54B981EF3927000274AC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADE54BB11EF3927100274AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADE54BB21EF3927100274AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADE54BB41EF3927100274AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QCPGP4ADDR;
+				INFOPLIST_FILE = Castrol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliqers.Castrol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADE54BB51EF3927100274AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QCPGP4ADDR;
+				INFOPLIST_FILE = Castrol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliqers.Castrol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADE54BB71EF3927100274AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QCPGP4ADDR;
+				INFOPLIST_FILE = CastrolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliqers.CastrolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Castrol.app/Castrol";
+			};
+			name = Debug;
+		};
+		ADE54BB81EF3927100274AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QCPGP4ADDR;
+				INFOPLIST_FILE = CastrolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliqers.CastrolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Castrol.app/Castrol";
+			};
+			name = Release;
+		};
+		ADE54BBA1EF3927100274AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QCPGP4ADDR;
+				INFOPLIST_FILE = CastrolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliqers.CastrolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Castrol;
+			};
+			name = Debug;
+		};
+		ADE54BBB1EF3927100274AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QCPGP4ADDR;
+				INFOPLIST_FILE = CastrolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliqers.CastrolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Castrol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADE54B831EF3927000274AC2 /* Build configuration list for PBXProject "Castrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE54BB11EF3927100274AC2 /* Debug */,
+				ADE54BB21EF3927100274AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE54BB31EF3927100274AC2 /* Build configuration list for PBXNativeTarget "Castrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE54BB41EF3927100274AC2 /* Debug */,
+				ADE54BB51EF3927100274AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADE54BB61EF3927100274AC2 /* Build configuration list for PBXNativeTarget "CastrolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE54BB71EF3927100274AC2 /* Debug */,
+				ADE54BB81EF3927100274AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADE54BB91EF3927100274AC2 /* Build configuration list for PBXNativeTarget "CastrolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE54BBA1EF3927100274AC2 /* Debug */,
+				ADE54BBB1EF3927100274AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADE54B921EF3927000274AC2 /* Castrol.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADE54B931EF3927000274AC2 /* Castrol.xcdatamodel */,
+			);
+			currentVersion = ADE54B931EF3927000274AC2 /* Castrol.xcdatamodel */;
+			path = Castrol.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADE54B801EF3927000274AC2 /* Project object */;
+}
