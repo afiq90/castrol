@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD08B3B81EF3C40B009585B5 /* MobileAuthenticateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD08B3B71EF3C40B009585B5 /* MobileAuthenticateVC.swift */; };
+		AD08B3BA1EF3C423009585B5 /* MobileVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD08B3B91EF3C423009585B5 /* MobileVerificationVC.swift */; };
 		ADE54B8C1EF3927000274AC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE54B8B1EF3927000274AC2 /* AppDelegate.swift */; };
 		ADE54B8E1EF3927000274AC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE54B8D1EF3927000274AC2 /* ViewController.swift */; };
 		ADE54B911EF3927000274AC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE54B8F1EF3927000274AC2 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD08B3B71EF3C40B009585B5 /* MobileAuthenticateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileAuthenticateVC.swift; sourceTree = "<group>"; };
+		AD08B3B91EF3C423009585B5 /* MobileVerificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileVerificationVC.swift; sourceTree = "<group>"; };
 		ADE54B881EF3927000274AC2 /* Castrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Castrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE54B8B1EF3927000274AC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADE54B8D1EF3927000274AC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 			children = (
 				ADE54B8B1EF3927000274AC2 /* AppDelegate.swift */,
 				ADE54B8D1EF3927000274AC2 /* ViewController.swift */,
+				AD08B3B71EF3C40B009585B5 /* MobileAuthenticateVC.swift */,
+				AD08B3B91EF3C423009585B5 /* MobileVerificationVC.swift */,
 				ADE54B8F1EF3927000274AC2 /* Main.storyboard */,
 				ADE54B951EF3927000274AC2 /* Assets.xcassets */,
 				ADE54B971EF3927000274AC2 /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD08B3BA1EF3C423009585B5 /* MobileVerificationVC.swift in Sources */,
 				ADE54B941EF3927000274AC2 /* Castrol.xcdatamodeld in Sources */,
+				AD08B3B81EF3C40B009585B5 /* MobileAuthenticateVC.swift in Sources */,
 				ADE54B8E1EF3927000274AC2 /* ViewController.swift in Sources */,
 				ADE54B8C1EF3927000274AC2 /* AppDelegate.swift in Sources */,
 			);
@@ -528,6 +536,7 @@
 				ADE54BB51EF3927100274AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADE54BB61EF3927100274AC2 /* Build configuration list for PBXNativeTarget "CastrolTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +545,7 @@
 				ADE54BB81EF3927100274AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADE54BB91EF3927100274AC2 /* Build configuration list for PBXNativeTarget "CastrolUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +554,7 @@
 				ADE54BBB1EF3927100274AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
