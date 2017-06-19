@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40359B122E934AEA5733B1A8 /* Pods_CastrolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6397143AC910C922FFF60A8 /* Pods_CastrolUITests.framework */; };
+		4239CD761EF686B800C87767 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4239CD751EF686B800C87767 /* MainVC.swift */; };
+		4263B8A81EF5C2F3001B84C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4263B8A71EF5C2F2001B84C2 /* GoogleService-Info.plist */; };
+		833AAB30E9B82A8BEAAF9F66 /* Pods_Castrol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E6D6AD9CC11A61D7DF1320 /* Pods_Castrol.framework */; };
 		AD08B3B81EF3C40B009585B5 /* MobileAuthenticateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD08B3B71EF3C40B009585B5 /* MobileAuthenticateVC.swift */; };
 		AD08B3BA1EF3C423009585B5 /* MobileVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD08B3B91EF3C423009585B5 /* MobileVerificationVC.swift */; };
 		ADE54B8C1EF3927000274AC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE54B8B1EF3927000274AC2 /* AppDelegate.swift */; };
@@ -17,6 +21,7 @@
 		ADE54B991EF3927000274AC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE54B971EF3927000274AC2 /* LaunchScreen.storyboard */; };
 		ADE54BA41EF3927000274AC2 /* CastrolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE54BA31EF3927000274AC2 /* CastrolTests.swift */; };
 		ADE54BAF1EF3927100274AC2 /* CastrolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE54BAE1EF3927100274AC2 /* CastrolUITests.swift */; };
+		B903D13D984153F54294ED08 /* Pods_CastrolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1870BADF883F8AD6EEA5E625 /* Pods_CastrolTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1870BADF883F8AD6EEA5E625 /* Pods_CastrolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CastrolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A263645EB333CDD2819396D /* Pods-CastrolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastrolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CastrolUITests/Pods-CastrolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E5610D970BA4C2B7343B074 /* Pods-CastrolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastrolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CastrolUITests/Pods-CastrolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		41E6D6AD9CC11A61D7DF1320 /* Pods_Castrol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Castrol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4239CD751EF686B800C87767 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		4263B8A71EF5C2F2001B84C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4263B8A91EF659AF001B84C2 /* Castrol.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Castrol.entitlements; sourceTree = "<group>"; };
+		992446F103C0EA3A7A2995A1 /* Pods-Castrol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Castrol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Castrol/Pods-Castrol.debug.xcconfig"; sourceTree = "<group>"; };
+		A6397143AC910C922FFF60A8 /* Pods_CastrolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CastrolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD08B3B71EF3C40B009585B5 /* MobileAuthenticateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileAuthenticateVC.swift; sourceTree = "<group>"; };
 		AD08B3B91EF3C423009585B5 /* MobileVerificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileVerificationVC.swift; sourceTree = "<group>"; };
 		ADE54B881EF3927000274AC2 /* Castrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Castrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +67,9 @@
 		ADE54BAA1EF3927000274AC2 /* CastrolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastrolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE54BAE1EF3927100274AC2 /* CastrolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastrolUITests.swift; sourceTree = "<group>"; };
 		ADE54BB01EF3927100274AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3479C72701B35AD5A322F63 /* Pods-CastrolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastrolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CastrolTests/Pods-CastrolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0C9458310B8766D82E85EDD /* Pods-Castrol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Castrol.release.xcconfig"; path = "Pods/Target Support Files/Pods-Castrol/Pods-Castrol.release.xcconfig"; sourceTree = "<group>"; };
+		E6354AAC02EF36A46EAB930B /* Pods-CastrolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastrolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CastrolTests/Pods-CastrolTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833AAB30E9B82A8BEAAF9F66 /* Pods_Castrol.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B903D13D984153F54294ED08 /* Pods_CastrolTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +93,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40359B122E934AEA5733B1A8 /* Pods_CastrolUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F095CE5446BDFDBD41ADC6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41E6D6AD9CC11A61D7DF1320 /* Pods_Castrol.framework */,
+				1870BADF883F8AD6EEA5E625 /* Pods_CastrolTests.framework */,
+				A6397143AC910C922FFF60A8 /* Pods_CastrolUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ADE54B7F1EF3927000274AC2 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +117,8 @@
 				ADE54BA21EF3927000274AC2 /* CastrolTests */,
 				ADE54BAD1EF3927100274AC2 /* CastrolUITests */,
 				ADE54B891EF3927000274AC2 /* Products */,
+				C581D585CC455C14F24832CD /* Pods */,
+				7F095CE5446BDFDBD41ADC6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,11 +139,14 @@
 				ADE54B8D1EF3927000274AC2 /* ViewController.swift */,
 				AD08B3B71EF3C40B009585B5 /* MobileAuthenticateVC.swift */,
 				AD08B3B91EF3C423009585B5 /* MobileVerificationVC.swift */,
+				4239CD751EF686B800C87767 /* MainVC.swift */,
 				ADE54B8F1EF3927000274AC2 /* Main.storyboard */,
 				ADE54B951EF3927000274AC2 /* Assets.xcassets */,
 				ADE54B971EF3927000274AC2 /* LaunchScreen.storyboard */,
 				ADE54B9A1EF3927000274AC2 /* Info.plist */,
 				ADE54B921EF3927000274AC2 /* Castrol.xcdatamodeld */,
+				4263B8A91EF659AF001B84C2 /* Castrol.entitlements */,
+				4263B8A71EF5C2F2001B84C2 /* GoogleService-Info.plist */,
 			);
 			path = Castrol;
 			sourceTree = "<group>";
@@ -134,6 +169,19 @@
 			path = CastrolUITests;
 			sourceTree = "<group>";
 		};
+		C581D585CC455C14F24832CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				992446F103C0EA3A7A2995A1 /* Pods-Castrol.debug.xcconfig */,
+				C0C9458310B8766D82E85EDD /* Pods-Castrol.release.xcconfig */,
+				B3479C72701B35AD5A322F63 /* Pods-CastrolTests.debug.xcconfig */,
+				E6354AAC02EF36A46EAB930B /* Pods-CastrolTests.release.xcconfig */,
+				2A263645EB333CDD2819396D /* Pods-CastrolUITests.debug.xcconfig */,
+				2E5610D970BA4C2B7343B074 /* Pods-CastrolUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADE54BB31EF3927100274AC2 /* Build configuration list for PBXNativeTarget "Castrol" */;
 			buildPhases = (
+				1F13D1D53E17435C4C5FB340 /* [CP] Check Pods Manifest.lock */,
 				ADE54B841EF3927000274AC2 /* Sources */,
 				ADE54B851EF3927000274AC2 /* Frameworks */,
 				ADE54B861EF3927000274AC2 /* Resources */,
+				CFF2BFAC7FBB50DF40E4C5D3 /* [CP] Embed Pods Frameworks */,
+				3B1851BF2586A754228B7123 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADE54BB61EF3927100274AC2 /* Build configuration list for PBXNativeTarget "CastrolTests" */;
 			buildPhases = (
+				ABC029A80FC505E761713E2F /* [CP] Check Pods Manifest.lock */,
 				ADE54B9B1EF3927000274AC2 /* Sources */,
 				ADE54B9C1EF3927000274AC2 /* Frameworks */,
 				ADE54B9D1EF3927000274AC2 /* Resources */,
+				162F382DA1C1F902863061D8 /* [CP] Embed Pods Frameworks */,
+				E30EA891886D15E10E6916CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADE54BB91EF3927100274AC2 /* Build configuration list for PBXNativeTarget "CastrolUITests" */;
 			buildPhases = (
+				0BAA82A1D068B3AB9E653C37 /* [CP] Check Pods Manifest.lock */,
 				ADE54BA61EF3927000274AC2 /* Sources */,
 				ADE54BA71EF3927000274AC2 /* Frameworks */,
 				ADE54BA81EF3927000274AC2 /* Resources */,
+				6FC68F565CAF008E2D3E60C1 /* [CP] Embed Pods Frameworks */,
+				39D3F5DFE4CC1D00663B0C99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +259,14 @@
 				TargetAttributes = {
 					ADE54B871EF3927000274AC2 = {
 						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					ADE54B9E1EF3927000274AC2 = {
 						CreatedOnToolsVersion = 9.0;
@@ -239,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADE54B991EF3927000274AC2 /* LaunchScreen.storyboard in Resources */,
+				4263B8A81EF5C2F3001B84C2 /* GoogleService-Info.plist in Resources */,
 				ADE54B961EF3927000274AC2 /* Assets.xcassets in Resources */,
 				ADE54B911EF3927000274AC2 /* Main.storyboard in Resources */,
 			);
@@ -260,12 +326,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BAA82A1D068B3AB9E653C37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		162F382DA1C1F902863061D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CastrolTests/Pods-CastrolTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F13D1D53E17435C4C5FB340 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39D3F5DFE4CC1D00663B0C99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CastrolUITests/Pods-CastrolUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B1851BF2586A754228B7123 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Castrol/Pods-Castrol-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FC68F565CAF008E2D3E60C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CastrolUITests/Pods-CastrolUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC029A80FC505E761713E2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFF2BFAC7FBB50DF40E4C5D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Castrol/Pods-Castrol-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E30EA891886D15E10E6916CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CastrolTests/Pods-CastrolTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ADE54B841EF3927000274AC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AD08B3BA1EF3C423009585B5 /* MobileVerificationVC.swift in Sources */,
+				4239CD761EF686B800C87767 /* MainVC.swift in Sources */,
 				ADE54B941EF3927000274AC2 /* Castrol.xcdatamodeld in Sources */,
 				AD08B3B81EF3C40B009585B5 /* MobileAuthenticateVC.swift in Sources */,
 				ADE54B8E1EF3927000274AC2 /* ViewController.swift in Sources */,
@@ -370,7 +575,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -419,7 +624,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -429,34 +634,41 @@
 		};
 		ADE54BB41EF3927100274AC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992446F103C0EA3A7A2995A1 /* Pods-Castrol.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QCPGP4ADDR;
+				CODE_SIGN_ENTITLEMENTS = Castrol/Castrol.entitlements;
+				DEVELOPMENT_TEAM = P8TD5FLYMZ;
 				INFOPLIST_FILE = Castrol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cliqers.Castrol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		ADE54BB51EF3927100274AC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C9458310B8766D82E85EDD /* Pods-Castrol.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QCPGP4ADDR;
+				CODE_SIGN_ENTITLEMENTS = Castrol/Castrol.entitlements;
+				DEVELOPMENT_TEAM = P8TD5FLYMZ;
 				INFOPLIST_FILE = Castrol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cliqers.Castrol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		ADE54BB71EF3927100274AC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3479C72701B35AD5A322F63 /* Pods-CastrolTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +685,7 @@
 		};
 		ADE54BB81EF3927100274AC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6354AAC02EF36A46EAB930B /* Pods-CastrolTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +702,7 @@
 		};
 		ADE54BBA1EF3927100274AC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A263645EB333CDD2819396D /* Pods-CastrolUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QCPGP4ADDR;
@@ -504,6 +718,7 @@
 		};
 		ADE54BBB1EF3927100274AC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5610D970BA4C2B7343B074 /* Pods-CastrolUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QCPGP4ADDR;

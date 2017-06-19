@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class MobileAuthenticateVC: UIViewController {
 
+    @IBOutlet weak var phoneNumber: UITextField!
+    @IBOutlet weak var sendButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +24,27 @@ class MobileAuthenticateVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func sendButtonTapped(_ sender: Any) {
+        
+        let confirmationPopup = UIAlertController(title: "Phone Number", message: "Is this your phone number?", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Yes", style: .default) { (UIAlertAction) in
+            PhoneAuthProvider.provider().verifyPhoneNumber(self.phoneNumber.text!) { (verificationID, error) in
+                if error != nil {
+                    print("error : \(String(describing: error?.localizedDescription))")
+                } else {
+                    let defaults = UserDefaults.standard
+                    defaults.set(verificationID, forKey: "verificationID")
+                    self.performSegue(withIdentifier: "verificationVC", sender: Any?.self)
+                }
+            }
+        }
+        let cancel = UIAlertAction(title: "No", style: .default, handler: nil)
+        confirmationPopup.addAction(action)
+        confirmationPopup.addAction(cancel)
+        self.present(confirmationPopup, animated: true, completion: nil)
+    }
+    
     
 
     /*
