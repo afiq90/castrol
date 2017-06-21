@@ -11,13 +11,13 @@ import FirebaseAuth
 
 class MobileAuthenticateVC: UIViewController {
 
+    @IBOutlet weak var countryCode: UITextField!
     @IBOutlet weak var phoneNumber: UITextField!
     @IBOutlet weak var sendButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,15 +27,17 @@ class MobileAuthenticateVC: UIViewController {
     
     @IBAction func sendButtonTapped(_ sender: Any) {
         
-        //saved phone number to nsuserdefault, for resend code purpose
+        let userPhoneNumber = "\(String(describing: countryCode.text!))\(String(describing: phoneNumber.text!))"
+        
+        //Saved phone number to UserDefaults, for resend code purpose
         let savedPhoneNumber = UserDefaults.standard
-        savedPhoneNumber.set(phoneNumber.text, forKey: "phoneNumber")
+        savedPhoneNumber.set(userPhoneNumber, forKey: "phoneNumber")
         
-        let yourPhoneNumber = "Is this you phone number \(String(describing: phoneNumber.text!))"
+        let confirmPhoneNumber = "Is this you phone number \(String(describing: userPhoneNumber))"
         
-        let confirmationPopup = UIAlertController(title: "Phone Number", message: yourPhoneNumber, preferredStyle: .alert)
+        let confirmationPopup = UIAlertController(title: "Phone Number", message: confirmPhoneNumber, preferredStyle: .alert)
         let action = UIAlertAction(title: "Yes", style: .default) { (UIAlertAction) in
-            PhoneAuthProvider.provider().verifyPhoneNumber(self.phoneNumber.text!) { (verificationID, error) in
+            PhoneAuthProvider.provider().verifyPhoneNumber(userPhoneNumber) { (verificationID, error) in
                 if error != nil {
                     print("error : \(String(describing: error?.localizedDescription))")
                 } else {
