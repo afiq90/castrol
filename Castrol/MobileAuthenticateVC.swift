@@ -27,7 +27,13 @@ class MobileAuthenticateVC: UIViewController {
     
     @IBAction func sendButtonTapped(_ sender: Any) {
         
-        let confirmationPopup = UIAlertController(title: "Phone Number", message: "Is this your phone number?", preferredStyle: .alert)
+        //saved phone number to nsuserdefault, for resend code purpose
+        let savedPhoneNumber = UserDefaults.standard
+        savedPhoneNumber.set(phoneNumber.text, forKey: "phoneNumber")
+        
+        let yourPhoneNumber = "Is this you phone number \(String(describing: phoneNumber.text!))"
+        
+        let confirmationPopup = UIAlertController(title: "Phone Number", message: yourPhoneNumber, preferredStyle: .alert)
         let action = UIAlertAction(title: "Yes", style: .default) { (UIAlertAction) in
             PhoneAuthProvider.provider().verifyPhoneNumber(self.phoneNumber.text!) { (verificationID, error) in
                 if error != nil {
