@@ -9,7 +9,7 @@
 import UIKit
 
 class HomeVC: UIViewController {
-
+    
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
     override func viewDidLoad() {
@@ -26,8 +26,8 @@ class HomeVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+            
     
-
     /*
     // MARK: - Navigation
 

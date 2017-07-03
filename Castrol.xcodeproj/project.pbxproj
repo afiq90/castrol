@@ -10,15 +10,17 @@
 		40359B122E934AEA5733B1A8 /* Pods_CastrolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6397143AC910C922FFF60A8 /* Pods_CastrolUITests.framework */; };
 		42285E661EF9049500DF7544 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42285E651EF9049500DF7544 /* SWRevealViewController.m */; };
 		42285E691EF904DA00DF7544 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42285E681EF904DA00DF7544 /* HomeVC.swift */; };
-		42285E6B1EF9082400DF7544 /* MenuViewTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42285E6A1EF9082400DF7544 /* MenuViewTVC.swift */; };
 		4239CD761EF686B800C87767 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4239CD751EF686B800C87767 /* MainVC.swift */; };
 		4263B8A81EF5C2F3001B84C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4263B8A71EF5C2F2001B84C2 /* GoogleService-Info.plist */; };
+		42944E201EFA4B0900907250 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42944E1F1EFA4B0900907250 /* MenuVC.swift */; };
+		42944E221EFA4BA900907250 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42944E211EFA4BA900907250 /* MenuTableViewCell.swift */; };
+		42944E241EFA51EC00907250 /* WorkshopLocatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42944E231EFA51EC00907250 /* WorkshopLocatorVC.swift */; };
+		429C89C31EFA67700099A404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429C89C21EFA67700099A404 /* Main.storyboard */; };
 		833AAB30E9B82A8BEAAF9F66 /* Pods_Castrol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E6D6AD9CC11A61D7DF1320 /* Pods_Castrol.framework */; };
 		AD08B3B81EF3C40B009585B5 /* MobileAuthenticateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD08B3B71EF3C40B009585B5 /* MobileAuthenticateVC.swift */; };
 		AD08B3BA1EF3C423009585B5 /* MobileVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD08B3B91EF3C423009585B5 /* MobileVerificationVC.swift */; };
 		ADE54B8C1EF3927000274AC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE54B8B1EF3927000274AC2 /* AppDelegate.swift */; };
 		ADE54B8E1EF3927000274AC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE54B8D1EF3927000274AC2 /* ViewController.swift */; };
-		ADE54B911EF3927000274AC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE54B8F1EF3927000274AC2 /* Main.storyboard */; };
 		ADE54B941EF3927000274AC2 /* Castrol.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADE54B921EF3927000274AC2 /* Castrol.xcdatamodeld */; };
 		ADE54B961EF3927000274AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE54B951EF3927000274AC2 /* Assets.xcassets */; };
 		ADE54B991EF3927000274AC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE54B971EF3927000274AC2 /* LaunchScreen.storyboard */; };
@@ -53,10 +55,13 @@
 		42285E641EF9049500DF7544 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		42285E651EF9049500DF7544 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		42285E681EF904DA00DF7544 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		42285E6A1EF9082400DF7544 /* MenuViewTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewTVC.swift; sourceTree = "<group>"; };
 		4239CD751EF686B800C87767 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		4263B8A71EF5C2F2001B84C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4263B8A91EF659AF001B84C2 /* Castrol.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Castrol.entitlements; sourceTree = "<group>"; };
+		42944E1F1EFA4B0900907250 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		42944E211EFA4BA900907250 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		42944E231EFA51EC00907250 /* WorkshopLocatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopLocatorVC.swift; sourceTree = "<group>"; };
+		429C89C21EFA67700099A404 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../Main.storyboard; sourceTree = "<group>"; };
 		992446F103C0EA3A7A2995A1 /* Pods-Castrol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Castrol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Castrol/Pods-Castrol.debug.xcconfig"; sourceTree = "<group>"; };
 		A6397143AC910C922FFF60A8 /* Pods_CastrolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CastrolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD08B3B71EF3C40B009585B5 /* MobileAuthenticateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileAuthenticateVC.swift; sourceTree = "<group>"; };
@@ -64,7 +69,6 @@
 		ADE54B881EF3927000274AC2 /* Castrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Castrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE54B8B1EF3927000274AC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADE54B8D1EF3927000274AC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ADE54B901EF3927000274AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADE54B931EF3927000274AC2 /* Castrol.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Castrol.xcdatamodel; sourceTree = "<group>"; };
 		ADE54B951EF3927000274AC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE54B981EF3927000274AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -117,6 +121,17 @@
 			name = Lib;
 			sourceTree = "<group>";
 		};
+		42944E251EFA60C000907250 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				42285E681EF904DA00DF7544 /* HomeVC.swift */,
+				42944E231EFA51EC00907250 /* WorkshopLocatorVC.swift */,
+				42944E1F1EFA4B0900907250 /* MenuVC.swift */,
+				42944E211EFA4BA900907250 /* MenuTableViewCell.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
 		7F095CE5446BDFDBD41ADC6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,9 +172,8 @@
 				AD08B3B71EF3C40B009585B5 /* MobileAuthenticateVC.swift */,
 				AD08B3B91EF3C423009585B5 /* MobileVerificationVC.swift */,
 				4239CD751EF686B800C87767 /* MainVC.swift */,
-				42285E681EF904DA00DF7544 /* HomeVC.swift */,
-				42285E6A1EF9082400DF7544 /* MenuViewTVC.swift */,
-				ADE54B8F1EF3927000274AC2 /* Main.storyboard */,
+				429C89C21EFA67700099A404 /* Main.storyboard */,
+				42944E251EFA60C000907250 /* Slider */,
 				42285E671EF904B500DF7544 /* Lib */,
 				ADE54B951EF3927000274AC2 /* Assets.xcassets */,
 				ADE54B971EF3927000274AC2 /* LaunchScreen.storyboard */,
@@ -328,7 +342,7 @@
 				ADE54B991EF3927000274AC2 /* LaunchScreen.storyboard in Resources */,
 				4263B8A81EF5C2F3001B84C2 /* GoogleService-Info.plist in Resources */,
 				ADE54B961EF3927000274AC2 /* Assets.xcassets in Resources */,
-				ADE54B911EF3927000274AC2 /* Main.storyboard in Resources */,
+				429C89C31EFA67700099A404 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,11 +506,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				42285E661EF9049500DF7544 /* SWRevealViewController.m in Sources */,
+				42944E241EFA51EC00907250 /* WorkshopLocatorVC.swift in Sources */,
 				42285E691EF904DA00DF7544 /* HomeVC.swift in Sources */,
 				AD08B3BA1EF3C423009585B5 /* MobileVerificationVC.swift in Sources */,
 				4239CD761EF686B800C87767 /* MainVC.swift in Sources */,
-				42285E6B1EF9082400DF7544 /* MenuViewTVC.swift in Sources */,
+				42944E221EFA4BA900907250 /* MenuTableViewCell.swift in Sources */,
 				ADE54B941EF3927000274AC2 /* Castrol.xcdatamodeld in Sources */,
+				42944E201EFA4B0900907250 /* MenuVC.swift in Sources */,
 				AD08B3B81EF3C40B009585B5 /* MobileAuthenticateVC.swift in Sources */,
 				ADE54B8E1EF3927000274AC2 /* ViewController.swift in Sources */,
 				ADE54B8C1EF3927000274AC2 /* AppDelegate.swift in Sources */,
@@ -535,14 +551,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ADE54B8F1EF3927000274AC2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADE54B901EF3927000274AC2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ADE54B971EF3927000274AC2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

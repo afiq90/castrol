@@ -35,7 +35,6 @@ class MainVC: UIViewController, SKStoreProductViewControllerDelegate {
                     print("Launching \(url) was successful")
                 }
             })
-            
         }
     }
     
